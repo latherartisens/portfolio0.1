@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abasra Accounting Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">Abasra<span>Accounting</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#help">Help</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Trusted Accounting Support</p>
+          <h1>Accounting Services That Keep Your Business Smooth</h1>
+          <p class="subtext">We provide bookkeeping, tax preparation, payroll support, financial reporting, and business advisory for startups and growing companies.</p>
+          <div class="actions">
+            <a class="btn primary" href="#contact">Get Started</a>
+            <a class="btn ghost" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80" alt="Accounting professional reviewing financial reports" />
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Bookkeeping service" />
+            <h3>Bookkeeping</h3>
+            <p>Accurate records, reconciliations, and monthly reports that help you stay in control.</p>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=800&q=80" alt="Tax preparation service" />
+            <h3>Tax Preparation</h3>
+            <p>Individual and business tax filing with strategic planning to reduce risk and optimize savings.</p>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=800&q=80" alt="Payroll management" />
+            <h3>Payroll Management</h3>
+            <p>On-time payroll processing, compliance support, and employee payment reporting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="help" class="section alt">
+      <div class="container">
+        <h2>Help Center</h2>
+        <div class="help-grid">
+          <div>
+            <h3>How We Help You</h3>
+            <ul>
+              <li>Setup and cleanup of accounting systems</li>
+              <li>Monthly and quarterly performance reviews</li>
+              <li>Cash flow planning and forecasting</li>
+              <li>Audit-ready documentation and reporting</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Support Hours</h3>
+            <p>Monday – Friday: 9:00 AM to 6:00 PM</p>
+            <p>Emergency support for urgent filing and payroll deadlines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details>
+            <summary>What type of clients do you work with?</summary>
+            <p>We work with freelancers, startups, small businesses, and growing enterprises across multiple industries.</p>
+          </details>
+          <details>
+            <summary>Can you help if my books are behind?</summary>
+            <p>Yes, we offer bookkeeping cleanup services and can bring your records up to date quickly.</p>
+          </details>
+          <details>
+            <summary>Do you provide monthly financial reports?</summary>
+            <p>Absolutely. We prepare easy-to-read monthly reports including profit & loss, balance sheet, and cash flow summaries.</p>
+          </details>
+          <details>
+            <summary>How do I get started?</summary>
+            <p>Contact us through the form below or email us directly. We’ll schedule a short consultation.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Us</h2>
+          <p>Have questions? We’re here to help your business stay compliant and financially healthy.</p>
+          <p><strong>Email:</strong> <a href="mailto:abasra368@gmail.com">abasra368@gmail.com</a></p>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! We will contact you soon.');">
+          <label>Name
+            <input type="text" required placeholder="Your full name" />
+          </label>
+          <label>Email
+            <input type="email" required placeholder="you@example.com" />
+          </label>
+          <label>Message
+            <textarea rows="5" required placeholder="How can we help?"></textarea>
+          </label>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Abasra Accounting Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
